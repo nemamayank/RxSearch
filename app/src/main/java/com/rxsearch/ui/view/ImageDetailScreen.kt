@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.rxsearch.ui.viewmodel.DetailViewModel
-import com.rxsearch.utility.Constants.IMAGE_DETAIL_URL
 import com.bumptech.glide.Glide
 import com.rxsearch.R
 import com.rxsearch.databinding.ImageDetailBinding
+import com.rxsearch.ui.viewmodel.DetailViewModel
+import com.rxsearch.utility.Constants.IMAGE_DETAIL_URL
 
 class ImageDetailScreen : AppCompatActivity() {
     private lateinit var binding: ImageDetailBinding
